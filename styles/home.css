@@ -382,3 +382,54 @@ section.contTestimonios:hover{
     color: white;
 }
 
+
+
+/* Media Queries para móviles */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .titulo h1 {
+    font-size: 2rem;
+  }
+
+  .subtitulo h2 {
+    font-size: 1rem;
+  }
+
+  .contGeneral, .contGeneralSec, .contGeneralTerc {
+    padding: 0 10px;
+    margin: 20px 0;
+  }
+
+  video {
+    border-width: 1.5px;
+    box-shadow: 0 0 6px 1px rgba(178, 151, 0, 0.4);
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2.frase {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}

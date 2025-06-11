@@ -1,0 +1,384 @@
+
+/*ESTILO PARA IMAGEN GRANDE*/
+
+.introGrande{
+    position: relative;
+    width: 99%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('tu-imagen.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(6px);
+  z-index: 0;
+}
+
+.fondo img{
+    width: 100%;
+    
+    
+    
+}
+
+.contenido {
+  position: relative;
+  z-index: 1;
+  color: white; 
+  text-align: center;
+  padding: 2rem;
+  
+}
+
+
+
+.titulo{
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    align-items: center;
+    font-size: 46px;
+    z-index: 1
+    ;
+}
+
+.subtitulo{
+    z-index: 1;
+}
+
+.dorado{
+    background: linear-gradient(
+    90deg,
+    #f8e473 0%,
+    #f5c451 25%,
+    #d4a44d 50%,
+    #f5c451 75%,
+    #f8e473 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow:
+    0 0 11px rgba(255, 215, 0, 0.2),
+    0 6px 6px rgba(255, 200, 0, 0.25);
+}
+
+
+/*ESTILO GRIDS(VIDEOS,IMAGENES,INFO PRINCIPAL)*/
+
+div.contGeneral{
+    margin: 350px auto;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+
+section.cont:hover{
+   box-shadow: 1px 0 18px rgba(218, 165, 32, 0.3),
+    inset 1px 0px 10px rgba(255, 255, 255, 0.37);
+    transform: scale(1.02);
+}
+
+section.cont{
+     
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d); /* negro con un toque grisáceo */
+    
+    border-top: 1px solid rgba(218,165,32,0.1); /* línea dorada sutil */
+    border-bottom: 1px solid rgba(218,165,32,0.05);
+    box-shadow: inset 1px 0px 10px rgba(255, 255, 255, 0.37);
+    border-radius: 18px; /* opcional */
+    
+    transition: transform 1.5s ease, box-shadow 1.0s ease;
+}
+
+
+
+
+/*ORGRANIZACION GRIDS*/
+
+section.contVideos{
+    grid-column: 1/9;
+    grid-row: 1/5;
+    
+    
+}
+
+section.contImg{
+    
+    grid-column: 9/13;
+    grid-row: 1/5;
+}
+
+section.contInfo{
+    grid-column: 1/6;
+    grid-row: 5/10;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px
+    ;
+
+}
+
+section.contObjetivo{
+    grid-column: 6/13;
+    grid-row: 5/10;
+}
+
+/*SECCION VIDEO*/
+
+section.contVideos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.contVideos video{
+    border-radius: 15px
+    ;
+    width: 700px;
+    height: 400px;
+  
+}
+
+
+/*SECCION INFO*/
+
+section.contInfo{
+    padding: 35px;
+    border: none;
+    box-shadow: none;
+    transition: transform 1.6s ease;
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d); /* negro con un toque grisáceo */
+    
+    border-top: 1px solid rgba(218,165,32,0.1); /* línea dorada sutil */
+    border-bottom: 1px solid rgba(218,165,32,0.05);
+    box-shadow: inset 1px 0px 10px rgba(255, 255, 255, 0.37);
+    border-radius: 18px; /* opcional */
+    
+    transition: transform 1.5s ease, box-shadow 1.0s ease;
+}
+
+section.contInfo:hover{
+    box-shadow: 1px 0 18px rgba(218, 165, 32, 0.3),
+    inset 1px 0px 10px rgba(255, 255, 255, 0.37);
+    transform: scale(1.02);
+}
+
+section.contInfo div.tituloInfo{
+    margin-top: 25px;
+    display: flex;
+    gap: 10px
+    ;
+}
+
+section.contInfo div.tituloInfo h1{
+    font-size: 36px;
+}
+
+section.contInfo p{
+    width: 500px;
+    text-align: center;
+    text-justify: inter-word;
+    hyphens: auto;
+    line-height: 1.8;
+    font-size: 1.15rem;
+    max-width: 620px;
+    margin: 0 auto 1.5em auto; 
+}
+
+
+
+/*SECCION 2*/
+
+div.contGeneralSec{
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d); /* negro con un toque grisáceo */
+    padding: 40px 20px;
+    border-top: 1px solid rgba(218,165,32,0.1); /* línea dorada sutil */
+    border-bottom: 1px solid rgba(218,165,32,0.05);
+    box-shadow: inset 1px 0px 10px rgba(255, 255, 255, 0.37);
+                
+    height: 400px;
+    width: 100%;
+    margin-top: -150px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    transition: transform 1.5s ease, box-shadow 1.0s ease;
+
+}
+
+div.contGeneralSec:hover{
+    box-shadow: 1px 0 18px rgba(218, 165, 32, 0.3),
+    inset 1px 0px 10px rgba(255, 255, 255, 0.37);
+    transform: scale(1.02);
+}
+
+div.contGeneralSec section{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+}
+
+div.contGeneralSec section h1{
+    font-size: 30px;
+    background: linear-gradient(
+    90deg,
+    #f8e473 0%,
+    #f5c451 25%,
+    #d4a44d 50%,
+    #f5c451 75%,
+    #f8e473 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin-top: 3px;
+}
+
+div.contGeneralSec section p{
+    text-align: center;
+    text-justify: inter-word;
+    hyphens: auto;
+    line-height: 1.8;
+    font-size: 1.15rem;
+    max-width: 620px;
+    margin: 0 auto 1.5em auto; 
+    
+}
+
+/*SECCION 3*/
+
+h2{
+    text-align: center;
+    margin: 110px auto;
+    font-size: 36px;
+    font-style: italic;
+    background: linear-gradient(90deg, 
+        rgba(255, 255, 255, 1) 20%,
+        #d4a44d 60%,
+        #f5c451 75%,
+        #f8e473 100%);    /* dorado translúcido al final */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+div.contGeneralTerc{
+    margin: 10px 100px;
+    display: grid;
+    grid-template-columns: repeat(12,100px);
+    grid-template-rows: repeat(10,100px);
+    gap: 50px;
+}
+
+section.contVentajas{
+    grid-column: 1/6;
+    grid-row: 1/7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-left: -22px;
+}
+
+section.contProducto{
+    grid-column: 6/13;
+    grid-row: 1/7;
+    display: flex;
+    
+
+}
+
+section.contTestimonios{
+    grid-column: 1/13;
+    grid-row: 7/10;
+    justify-content: start;
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    transition: none;
+    background-color: #000000 !important;
+}
+
+section.contTestimonios:hover{
+    align-items: center;
+    border: none;
+    box-shadow: none;
+    transform: scale(1.00);
+    
+}
+
+/*ESTILOS VENTAJAS*/
+
+.contVentajas h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 34px;
+}
+
+.contVentajas .tituloVentajas{
+    display: flex;
+    gap: 11px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ESTILOS TESTIMONIOS*/
+
+.tituloTestimonios{
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d); /* negro con un toque grisáceo */
+    
+    border-top: 1px solid rgba(218,165,32,0.1); /* línea dorada sutil */
+    border-bottom: 1px solid rgba(218,165,32,0.05);
+    box-shadow: inset 1px 0px 10px rgba(255, 255, 255, 0.37);
+    margin-left: -23px;
+    height: 100%;
+    width: 25%;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    
+}
+
+.tituloTestimonios h1{
+    color: white;
+}
+

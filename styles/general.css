@@ -1,0 +1,20 @@
+
+/*ESTILOS GENERAL*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+  background-color: #020202; /* gris muy oscuro */
+  color: #ffffff; /* texto claro para contraste */
+  font-family: sans-serif;
+  overflow-x: hidden
+}
+

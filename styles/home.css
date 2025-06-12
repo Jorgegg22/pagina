@@ -81,8 +81,11 @@
 /*ESTILO GRIDS(VIDEOS,IMAGENES,INFO PRINCIPAL)*/
 
 div.contGeneral{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath3779%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient3780%26quot%3b)'%3e%3c/rect%3e%3ccircle r='54.42' cx='583.76' cy='358.51' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='23.555' cx='78.85' cy='417.63' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='55.255' cx='1015.54' cy='110.93' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='38.64' cx='0.75' cy='178.43' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='44.43' cx='141.43' cy='433.94' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='33.315' cx='84.79' cy='221.45' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='29.145' cx='614.81' cy='40.7' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='42.975' cx='1223.08' cy='476.36' fill='rgba(139%2c 117%2c 0%2c 1)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath3779'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient3780'%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0.44'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size:contain;
+    background-size: 100%; 
     margin: 350px auto;
-    width: 1500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -272,14 +275,14 @@ div.contGeneralSec section p{
 
 /*SECCION 3*/
 
-h2{
+.frase{
     text-align: center;
     margin: 110px auto;
     font-size: 36px;
     font-style: italic;
     background: linear-gradient(90deg, 
         rgba(255, 255, 255, 1) 20%,
-        #d4a44d 60%,
+           60%,
         #f5c451 75%,
         #f8e473 100%);    /* dorado translúcido al final */
     -webkit-background-clip: text;
@@ -289,10 +292,13 @@ h2{
 }
 
 div.contGeneralTerc{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath3779%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient3780%26quot%3b)'%3e%3c/rect%3e%3ccircle r='54.42' cx='583.76' cy='358.51' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='23.555' cx='78.85' cy='417.63' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='55.255' cx='1015.54' cy='110.93' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='38.64' cx='0.75' cy='178.43' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='44.43' cx='141.43' cy='433.94' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='33.315' cx='84.79' cy='221.45' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='29.145' cx='614.81' cy='40.7' fill='rgba(212%2c 175%2c 55%2c 1)'%3e%3c/circle%3e%3ccircle r='42.975' cx='1223.08' cy='476.36' fill='rgba(139%2c 117%2c 0%2c 1)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath3779'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient3780'%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='0.44'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-size:contain;
+    background-size: 100%; /* o contain, según lo que busques */
     margin: 10px 100px;
     display: grid;
     grid-template-columns: repeat(12,100px);
-    grid-template-rows: repeat(10,100px);
+    grid-template-rows: repeat(6,100px);
     gap: 50px;
 }
 
@@ -314,16 +320,7 @@ section.contProducto{
 
 }
 
-section.contTestimonios{
-    grid-column: 1/13;
-    grid-row: 7/10;
-    justify-content: start;
-    align-items: center;
-    border: none;
-    box-shadow: none;
-    transition: none;
-    background-color: #000000 !important;
-}
+
 
 section.contTestimonios:hover{
     align-items: center;
@@ -347,6 +344,36 @@ section.contTestimonios:hover{
 
 }
 
+.contVentajas .textoVentajas{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+  width: 70%;
+  height: 72%;
+  gap: 3%;
+}
+
+
+.contVentajas .textoVentajas .cajasVentajas{
+    width: 100%;
+    height: 13%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05),
+    inset 1px 0px 10px rgba(255, 255, 255, 0.37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
 
 
 
@@ -359,27 +386,48 @@ section.contTestimonios:hover{
 
 /*ESTILOS TESTIMONIOS*/
 
-.tituloTestimonios{
-    background: linear-gradient(to right, #0a0a0a, #0e0d0d); /* negro con un toque grisáceo */
-    
-    border-top: 1px solid rgba(218,165,32,0.1); /* línea dorada sutil */
-    border-bottom: 1px solid rgba(218,165,32,0.05);
-    box-shadow: inset 1px 0px 10px rgba(255, 255, 255, 0.37);
-    margin-left: -23px;
-    height: 100%;
-    width: 25%;
-    font-size: 20px;
-    font-style: italic;
+
+section.contTestimonios {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    border-radius: 18px;
-    
+    margin-top: -2%;
 }
 
-.tituloTestimonios h1{
-    color: white;
+.testimonio{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: 18px;
+    background-color: #fff;
+    color: #333;
+    border: 3px solid rgba(212, 175, 55, 0.4);
+    box-shadow: 1px 4px 15px rgba(212, 175, 55, 0.425); /* sombra dorada sutil */
+    font-size: 1.1rem;
+    line-height: 1.6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonio:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 18px 10px rgba(218, 165, 32, 0.3),
+    inset 2px 2px 10px rgba(255, 255, 255, 0.37);
+    border-color: rgba(212, 175, 55, 0.7);
+}
+
+.testimonio .nombreTestimonio{
+  margin-top: 5%;
+}
+
+.testimonio .notaTestimonio{
+  margin-top: 5%;
 }
 
 

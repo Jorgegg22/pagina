@@ -1,0 +1,29 @@
+.footer {
+  background-color: #111;
+  color: #ddd;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #ddd;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: gold;
+}
+
+.social-icons img {
+  width: 24px;
+  margin: 0 0.3rem;
+  filter: brightness(0.8);
+  transition: filter 0.3s ease;
+}
+
+.social-icons img:hover {
+  filter: brightness(1.2);
+}

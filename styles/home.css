@@ -1,16 +1,14 @@
-
 /*ESTILO PARA IMAGEN GRANDE*/
 
 .introGrande{
     position: relative;
     width: 99%;
-    height: 800px;
+    height: 50rem; /* antes 800px */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-   
+    gap: 0.625rem; /* antes 10px */
 }
 
 .fondo {
@@ -28,9 +26,6 @@
 
 .fondo img{
     width: 100%;
-    
-    
-    
 }
 
 .contenido {
@@ -39,20 +34,16 @@
   color: white; 
   text-align: center;
   padding: 2rem;
-  
 }
 
-
-
 .titulo{
-    margin-top: 160px;
+    margin-top: 10rem; /* antes 160px */
     display: flex;
     justify-content: center;
-    gap: 23px;
+    gap: 1.4375rem; /* antes 23px */
     align-items: center;
-    font-size: 46px;
-    z-index: 1
-    ;
+    font-size: 2.875rem; /* antes 46px */
+    z-index: 1;
 }
 
 .subtitulo{
@@ -81,16 +72,15 @@
 /*ESTILO GRIDS(VIDEOS,IMAGENES,INFO PRINCIPAL)*/
 
 div.contGeneral{
-   
-    background-size:contain;
+    background-size: contain;
     background-size: 100%; 
-    margin: 350px auto;
+    margin: 21.875rem auto; /* antes 350px */
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 130px;
+    gap: 8.125rem; /* antes 130px */
 }
 
 section.cont:hover{
@@ -100,18 +90,13 @@ section.cont:hover{
 }
 
 section.cont{
-     
-    background: linear-gradient(to right, #0a0a0a, #0e0d0d); /* negro con un toque grisáceo */
-    
-    border-top: 1px solid rgba(218,165,32,0.1); /* línea dorada sutil */
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d);
+    border-top: 1px solid rgba(218,165,32,0.1);
     border-bottom: 1px solid rgba(218,165,32,0.05);
     box-shadow: inset 1px 0px 10px rgba(255, 255, 255, 0.37);
-    border-radius: 18px; /* opcional */
-    
+    border-radius: 18px;
     transition: transform 1.5s ease, box-shadow 1.0s ease;
 }
-
-
 
 
 /*ORGRANIZACION GRIDS*/
@@ -119,12 +104,9 @@ section.cont{
 section.contVideos{
     grid-column: 1/9;
     grid-row: 1/5;
-    
-    
 }
 
 section.contImg{
-    
     grid-column: 9/13;
     grid-row: 1/5;
 }
@@ -136,9 +118,7 @@ section.contInfo{
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    gap: 20px
-    ;
-
+    gap: 1.25rem; /* antes 20px */
 }
 
 section.contObjetivo{
@@ -155,28 +135,23 @@ section.contVideos{
 }
 
 section.contVideos video{
-    border-radius: 15px
-    ;
-    width: 700px;
-    height: 400px;
-  
+    border-radius: 0.9375rem; /* antes 15px */
+    width: 43.75rem; /* antes 700px */
+    height: 25rem; /* antes 400px */
 }
-
 
 /*SECCION INFO*/
 
 section.contInfo{
-    padding: 35px;
+    padding: 2.1875rem; /* antes 35px */
     border: none;
     box-shadow: none;
     transition: transform 1.6s ease;
-    background: linear-gradient(to right, #0a0a0a, #0e0d0d); /* negro con un toque grisáceo */
-    
-    border-top: 1px solid rgba(218,165,32,0.1); /* línea dorada sutil */
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d);
+    border-top: 1px solid rgba(218,165,32,0.1);
     border-bottom: 1px solid rgba(218,165,32,0.05);
     box-shadow: inset 1px 0px 10px rgba(255, 255, 255, 0.37);
-    border-radius: 18px; /* opcional */
-    
+    border-radius: 18px;
     transition: transform 1.5s ease, box-shadow 1.0s ease;
 }
 
@@ -187,46 +162,41 @@ section.contInfo:hover{
 }
 
 section.contInfo div.tituloInfo{
-    margin-top: 25px;
+    margin-top: 1.5625rem; /* antes 25px */
     display: flex;
-    gap: 10px
-    ;
+    gap: 0.625rem; /* antes 10px */
 }
 
 section.contInfo div.tituloInfo h1{
-    font-size: 36px;
+    font-size: 2.25rem; /* antes 36px */
 }
 
 section.contInfo p{
-    width: 500px;
+    width: 31.25rem; /* antes 500px */
     text-align: center;
     text-justify: inter-word;
     hyphens: auto;
     line-height: 1.8;
     font-size: 1.15rem;
-    max-width: 620px;
-    margin: 0 auto 1.5em auto; 
+    max-width: 38.75rem; /* antes 620px */
+    margin: 0 auto 1.5em auto;
 }
-
-
 
 /*SECCION 2*/
 
 div.contGeneralSec{
-    background: linear-gradient(to right, #0a0a0a, #0e0d0d); /* negro con un toque grisáceo */
-    padding: 40px 20px;
-    border-top: 1px solid rgba(218,165,32,0.1); /* línea dorada sutil */
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d);
+    padding: 2.5rem 1.25rem; /* antes 40px 20px */
+    border-top: 1px solid rgba(218,165,32,0.1);
     border-bottom: 1px solid rgba(218,165,32,0.05);
     box-shadow: inset 1px 0px 10px rgba(255, 255, 255, 0.37);
-                
-    height: 400px;
+    height: 25rem; /* antes 400px */
     width: 100%;
-    margin-top: -150px;
+    margin-top: -9.375rem; /* antes -150px */
     display: flex;
     justify-content: space-around;
     align-items:flex-start;
     transition: transform 1.5s ease, box-shadow 1.0s ease;
-
 }
 
 div.contGeneralSec:hover{
@@ -236,17 +206,16 @@ div.contGeneralSec:hover{
 }
 
 div.contGeneralSec section{
-    width: 350px;
+    width: 21.875rem; /* antes 350px */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 35px;
-
+    gap: 2.1875rem; /* antes 35px */
 }
 
 div.contGeneralSec section h1{
-    font-size: 30px;
+    font-size: 1.875rem; /* antes 30px */
     background: linear-gradient(
     90deg,
     #f8e473 0%,
@@ -259,7 +228,7 @@ div.contGeneralSec section h1{
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  margin-top: 3px;
+  margin-top: 0.1875rem; /* antes 3px */
 }
 
 div.contGeneralSec section p{
@@ -268,23 +237,22 @@ div.contGeneralSec section p{
     hyphens: auto;
     line-height: 1.8;
     font-size: 1.15rem;
-    max-width: 620px;
+    max-width: 38.75rem; /* antes 620px */
     margin: 0 auto 1.5em auto; 
-    
 }
 
 /*SECCION 3*/
 
 .frase{
     text-align: center;
-    margin: 110px auto;
-    font-size: 36px;
+    margin: 6.875rem auto; /* antes 110px */
+    font-size: 2.25rem; /* antes 36px */
     font-style: italic;
     background: linear-gradient(90deg, 
         rgba(255, 255, 255, 1) 20%,
            60%,
         #f5c451 75%,
-        #f8e473 100%);    /* dorado translúcido al final */
+        #f8e473 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -292,13 +260,13 @@ div.contGeneralSec section p{
 }
 
 div.contGeneralTerc{ 
-    background-size:contain;
-    background-size: 100%; /* o contain, según lo que busques */
-    margin: 10px 100px;
+    background-size: contain;
+    background-size: 100%;
+    margin: 0.625rem 6.25rem; /* antes 10px 100px */
     display: grid;
-    grid-template-columns: repeat(12,100px);
-    grid-template-rows: repeat(6,100px);
-    gap: 50px;
+    grid-template-columns: repeat(12, 6.25rem); /* antes 100px */
+    grid-template-rows: repeat(6, 6.25rem);
+    gap: 3.125rem; /* antes 50px */
 }
 
 section.contVentajas{
@@ -308,39 +276,26 @@ section.contVentajas{
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    margin-left: -22px;
+    margin-left: -1.375rem; /* antes -22px */
 }
 
 section.contProducto{
     grid-column: 6/13;
     grid-row: 1/7;
     display: flex;
-    
-
-}
-
-
-
-section.contTestimonios:hover{
-    align-items: center;
-    border: none;
-    box-shadow: none;
-    transform: scale(1.00);
-    
 }
 
 /*ESTILOS VENTAJAS*/
 
 .contVentajas h1{
     text-align: center;
-    margin-top: 50px;
-    font-size: 34px;
+    margin-top: 3.125rem; /* antes 50px */
+    font-size: 2.125rem; /* antes 34px */
 }
 
 .contVentajas .tituloVentajas{
     display: flex;
-    gap: 11px;
-
+    gap: 0.6875rem; /* antes 11px */
 }
 
 .contVentajas .textoVentajas{
@@ -353,7 +308,6 @@ section.contTestimonios:hover{
   height: 72%;
   gap: 3%;
 }
-
 
 .contVentajas .textoVentajas .cajasVentajas{
     width: 100%;
@@ -368,23 +322,9 @@ section.contTestimonios:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*ESTILOS TESTIMONIOS*/
-
 
 section.contTestimonios {
     max-width: 100%;
@@ -400,7 +340,7 @@ section.contTestimonios {
 
 .testimonio{
     width: 100%;
-    max-width: 500px;
+    max-width: 31.25rem; /* antes 500px */
     height: 100%;
     margin: 1rem auto;
     padding: 1.5rem;
@@ -408,15 +348,15 @@ section.contTestimonios {
     background-color: #fff;
     color: #333;
     border: 3px solid rgba(212, 175, 55, 0.4);
-    box-shadow: 1px 4px 15px rgba(212, 175, 55, 0.425); /* sombra dorada sutil */
+    box-shadow: 1px 4px 15px rgba(212, 175, 55, 0.425);
     font-size: 1.1rem;
     line-height: 1.6;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .testimonio:hover {
-    transform: translateY(-5px);
-    box-shadow: 1px 1px 18px 10px rgba(218, 165, 32, 0.3),
+    transform: translateY(-0.3125rem); /* antes 5px */
+    box-shadow: 1px 1px 18px 0.625rem rgba(218, 165, 32, 0.3),
     inset 2px 2px 10px rgba(255, 255, 255, 0.37);
     border-color: rgba(212, 175, 55, 0.7);
 }
@@ -431,139 +371,352 @@ section.contTestimonios {
 
 
 
-/* MEDIA QUERY PARA MÓVILES */
-@media (max-width: 600px) {
+/* ESTILO PARA IMAGEN GRANDE - MÓVIL */
 
-  /* Intro grande se adapta a pantalla más pequeña */
-  .introGrande {
-    height: 400px; /* menos altura */
-    padding: 1rem;
-  }
-
-  /* Fondo no tan borroso para menos carga */
-  .fondo {
-    filter: blur(3px);
-  }
-
-  /* Texto centrado con tamaño más pequeño */
-  .titulo {
-    margin-top: 80px;
-    font-size: 28px;
-    gap: 10px;
-  }
-
-  .subtitulo {
-    font-size: 16px;
-  }
-
-  /* Contenido con padding reducido */
-  .contenido {
-    padding: 1rem;
-  }
-
-  /* Contenedor general con margen y gap más pequeños */
-  div.contGeneral {
-    margin: 150px auto;
-    gap: 40px;
-  }
-
-  /* Secciones en columna para evitar scroll horizontal */
-  section.contVideos,
-  section.contImg,
-  section.contInfo,
-  section.contObjetivo {
-    grid-column: auto !important;
-    grid-row: auto !important;
-    width: 90%;
-    margin: 0 auto;
-    display: block;
-  }
-
-  /* Video más pequeño */
-  section.contVideos video {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-
-  /* Texto info más pequeño y ancho adaptado */
-  section.contInfo p {
-    width: 100%;
-    font-size: 1rem;
-  }
-
-  /* Ajustar contGeneralSec a columna con menos ancho */
-  div.contGeneralSec {
-    flex-direction: column;
-    height: auto;
-    margin-top: 20px;
-    padding: 20px;
-  }
-
-  div.contGeneralSec section {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  div.contGeneralSec section h1 {
-    font-size: 24px;
-  }
-
-  div.contGeneralSec section p {
-    max-width: 100%;
-    font-size: 1rem;
-  }
-
-  /* Frase con tamaño reducido */
-  .frase {
-    font-size: 22px;
-    margin: 60px auto;
-    padding: 0 10px;
-  }
-
-  /* Grid contGeneralTerc pasa a columna */
-  div.contGeneralTerc {
+.introGrande {
+    position: relative;
+    width: 99vw;
+    height: 50vh; /* altura adaptada para móvil */
     display: flex;
     flex-direction: column;
-    margin: 10px 20px;
-    gap: 20px;
-  }
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem; /* ~10px */
+}
 
-  section.contVentajas,
-  section.contProducto {
-    grid-column: auto !important;
-    grid-row: auto !important;
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    margin-left: 0;
-  }
+    height: 100%;
+    background-image: url('tu-imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(0.375rem); /* 6px */
+    z-index: 0;
+}
 
-  /* Ventajas texto y cajas más compactas */
-  .contVentajas h1 {
-    font-size: 24px;
-    margin-top: 30px;
-  }
-
-  .contVentajas .textoVentajas {
+.fondo img {
     width: 100%;
-    height: auto;
-    gap: 10px;
-  }
+}
 
-  .contVentajas .textoVentajas .cajasVentajas {
-    height: auto;
-    padding: 10px;
-  }
+.contenido {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 1.25rem; /* 20px */
+}
 
-  /* Testimonios adaptados */
-  section.contTestimonios {
+.titulo {
+    margin-top: 10vh; /* aprox 160px en móvil */
+    display: flex;
+    justify-content: center;
+    gap: 1.4375rem; /* 23px */
+    align-items: center;
+    font-size: 2.875rem; /* 46px */
+    z-index: 1;
+}
+
+.subtitulo {
+    z-index: 1;
+}
+
+.dorado {
+    background: linear-gradient(
+        90deg,
+        #f8e473 0%,
+        #f5c451 25%,
+        #d4a44d 50%,
+        #f5c451 75%,
+        #f8e473 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-shadow:
+        0 0 0.6875rem rgba(255, 215, 0, 0.2), /* 11px */
+        0 0.375rem 0.375rem rgba(255, 200, 0, 0.25); /* 6px */
+}
+
+/* ESTILO GRIDS (VIDEOS, IMAGENES, INFO PRINCIPAL) */
+
+div.contGeneral {
+    background-size: contain;
+    background-size: 100%;
+    margin: 21.875rem auto; /* 350px */
+    width: 100%;
+    display: flex;
     flex-direction: column;
-    padding: 1rem;
-    gap: 20px;
-  }
+    justify-content: center;
+    align-items: center;
+    gap: 8.125rem; /* 130px */
+}
 
-  .testimonio {
+section.cont:hover {
+    box-shadow: 0.0625rem 0 1.125rem rgba(218, 165, 32, 0.3),
+        inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37);
+    transform: scale(1.02);
+}
+
+section.cont {
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d);
+    border-top: 0.0625rem solid rgba(218, 165, 32, 0.1);
+    border-bottom: 0.0625rem solid rgba(218, 165, 32, 0.05);
+    box-shadow: inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37);
+    border-radius: 1.125rem; /* 18px */
+    transition: transform 1.5s ease, box-shadow 1.0s ease;
+}
+
+/* ORGANIZACION GRIDS: aquí el grid será muy difícil en móvil, mejor con flex o column */
+
+section.contVideos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.contVideos video {
+    border-radius: 0.9375rem; /* 15px */
+    width: 90vw;
+    height: auto;
+}
+
+/* SECCION INFO */
+
+section.contInfo {
+    padding: 2.1875rem; /* 35px */
+    border: none;
+    box-shadow: none;
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d);
+    border-top: 0.0625rem solid rgba(218, 165, 32, 0.1);
+    border-bottom: 0.0625rem solid rgba(218, 165, 32, 0.05);
+    box-shadow: inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37);
+    border-radius: 1.125rem;
+    transition: transform 1.5s ease, box-shadow 1.0s ease;
+}
+
+section.contInfo:hover {
+    box-shadow: 0.0625rem 0 1.125rem rgba(218, 165, 32, 0.3),
+        inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37);
+    transform: scale(1.02);
+}
+
+section.contInfo div.tituloInfo {
+    margin-top: 1.5625rem; /* 25px */
+    display: flex;
+    gap: 0.625rem; /* 10px */
+}
+
+section.contInfo div.tituloInfo h1 {
+    font-size: 2.25rem; /* 36px */
+}
+
+section.contInfo p {
+    width: 90vw;
+    max-width: 38.75rem; /* 620px */
+    text-align: center;
+    text-justify: inter-word;
+    hyphens: auto;
+    line-height: 1.8;
+    font-size: 1.15rem;
+    margin: 0 auto 1.5em auto;
+}
+
+/* SECCION 2 */
+
+div.contGeneralSec {
+    background: linear-gradient(to right, #0a0a0a, #0e0d0d);
+    padding: 2.5rem 1.25rem; /* 40px 20px */
+    border-top: 0.0625rem solid rgba(218, 165, 32, 0.1);
+    border-bottom: 0.0625rem solid rgba(218, 165, 32, 0.05);
+    box-shadow: inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37);
+    height: 25rem; /* 400px */
+    width: 100%;
+    margin-top: -9.375rem; /* -150px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: transform 1.5s ease, box-shadow 1.0s ease;
+}
+
+div.contGeneralSec:hover {
+    box-shadow: 0.0625rem 0 1.125rem rgba(218, 165, 32, 0.3),
+        inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37);
+    transform: scale(1.02);
+}
+
+div.contGeneralSec section {
+    width: 90vw;
+    max-width: 21.875rem; /* 350px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.1875rem; /* 35px */
+}
+
+div.contGeneralSec section h1 {
+    font-size: 1.875rem; /* 30px */
+    background: linear-gradient(
+        90deg,
+        #f8e473 0%,
+        #f5c451 25%,
+        #d4a44d 50%,
+        #f5c451 75%,
+        #f8e473 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0.1875rem; /* 3px */
+}
+
+div.contGeneralSec section p {
+    text-align: center;
+    text-justify: inter-word;
+    hyphens: auto;
+    line-height: 1.8;
+    font-size: 1.15rem;
+    max-width: 38.75rem; /* 620px */
+    margin: 0 auto 1.5em auto;
+}
+
+/* SECCION 3 */
+
+.frase {
+    text-align: center;
+    margin: 6.875rem auto; /* 110px */
+    font-size: 2.25rem; /* 36px */
+    font-style: italic;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 20%,
+        60%,
+        #f5c451 75%,
+        #f8e473 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+div.contGeneralTerc {
+    background-size: contain;
+    background-size: 100%;
+    margin: 0.625rem 6.25rem; /* 10px 100px */
+    display: grid;
+    grid-template-columns: repeat(12, 8.333vw); /* 100px ~ 8.333vw */
+    grid-template-rows: repeat(6, 8.333vh); /* 100px ~ 8.333vh */
+    gap: 3.125rem; /* 50px */
+}
+
+section.contVentajas {
+    grid-column: 1/6;
+    grid-row: 1/7;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-left: -1.375rem; /* -22px */
+}
+
+section.contProducto {
+    grid-column: 6/13;
+    grid-row: 1/7;
+    display: flex;
+}
+
+/* ESTILOS VENTAJAS */
+
+.contVentajas h1 {
+    text-align: center;
+    margin-top: 3.125rem; /* 50px */
+    font-size: 2.125rem; /* 34px */
+}
+
+.contVentajas .tituloVentajas {
+    display: flex;
+    gap: 0.6875rem; /* 11px */
+}
+
+.contVentajas .textoVentajas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    width: 70%;
+    height: 72%;
+    gap: 3%;
+}
+
+.contVentajas .textoVentajas .cajasVentajas {
+    width: 100%;
+    height: 13%;
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.07),
+        rgba(255, 255, 255, 0.02)
+    );
+    backdrop-filter: blur(0.875rem); /* 14px */
+    -webkit-backdrop-filter: blur(0.875rem);
+    border-radius: 1.125rem; /* 18px */
+    box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.05),
+        inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ESTILOS TESTIMONIOS */
+
+section.contTestimonios {
     max-width: 100%;
-    font-size: 1rem;
-    margin: 0 auto;
-  }
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -2%;
+}
+
+.testimonio {
+    width: 90vw;
+    max-width: 31.25rem; /* 500px */
+    height: 100%;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    border-radius: 1.125rem; /* 18px */
+    background-color: #fff;
+    color: #333;
+    border: 0.1875rem solid rgba(212, 175, 55, 0.4); /* 3px */
+    box-shadow: 0.0625rem 0.25rem 0.9375rem rgba(212, 175, 55, 0.425);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonio:hover {
+    transform: translateY(-0.3125rem); /* 5px */
+    box-shadow: 0.0625rem 0.0625rem 1.125rem 0.625rem rgba(218, 165, 32, 0.3),
+        inset 0.125rem 0.125rem 0.625rem rgba(255, 255, 255, 0.37);
+    border-color: rgba(212, 175, 55, 0.7);
+}
+
+.testimonio .nombreTestimonio {
+    margin-top: 5%;
+}
+
+.testimonio .notaTestimonio {
+    margin-top: 5%;
 }

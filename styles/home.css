@@ -26,6 +26,7 @@
 
 .fondo img{
     width: 100%;
+    margin-top: 40%;
 }
 
 .contenido {
@@ -36,18 +37,21 @@
   padding: 2rem;
 }
 
-.titulo{
-    margin-top: 10rem; /* antes 160px */
+.titulo h1{
+    margin-top: 2rem; /* antes 160px */
     display: flex;
     justify-content: center;
     gap: 1.4375rem; /* antes 23px */
     align-items: center;
-    font-size: 2.875rem; /* antes 46px */
+    font-size: 3.6rem; /* antes 46px */
     z-index: 1;
 }
 
-.subtitulo{
+.subtitulo h2{
     z-index: 1;
+    font-size: 1.3rem;
+    margin-top: 5%;
+    
 }
 
 .dorado{
@@ -104,6 +108,10 @@ section.cont{
 section.contVideos{
     grid-column: 1/9;
     grid-row: 1/5;
+    background:none;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
 }
 
 section.contImg{
@@ -132,18 +140,23 @@ section.contVideos{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 section.contVideos video{
     border-radius: 0.9375rem; /* antes 15px */
     width: 43.75rem; /* antes 700px */
     height: 25rem; /* antes 400px */
-}
+    margin-top: -100%;
+    
+  }
+
 
 /*SECCION INFO*/
 
 section.contInfo{
     padding: 2.1875rem; /* antes 35px */
+    width: 77%;
     border: none;
     box-shadow: none;
     transition: transform 1.6s ease;
@@ -153,6 +166,12 @@ section.contInfo{
     box-shadow: inset 1px 0px 10px rgba(255, 255, 255, 0.37);
     border-radius: 18px;
     transition: transform 1.5s ease, box-shadow 1.0s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40%;
+    
 }
 
 section.contInfo:hover{
@@ -163,23 +182,28 @@ section.contInfo:hover{
 
 section.contInfo div.tituloInfo{
     margin-top: 1.5625rem; /* antes 25px */
+    width: 320px;
     display: flex;
     gap: 0.625rem; /* antes 10px */
-}
+    text-align: center;
+  }
 
 section.contInfo div.tituloInfo h1{
-    font-size: 2.25rem; /* antes 36px */
+    font-size: 2.0rem !important; /* antes 36px */
+    text-align: center !important;
 }
 
 section.contInfo p{
-    width: 31.25rem; /* antes 500px */
+    
+    width: 19.0rem !important; /* antes 500px */
     text-align: center;
     text-justify: inter-word;
     hyphens: auto;
     line-height: 1.8;
-    font-size: 1.15rem;
+    font-size: 1.0rem !important;
     max-width: 38.75rem; /* antes 620px */
     margin: 0 auto 1.5em auto;
+    margin-right: 5.0rem !important;
 }
 
 /*SECCION 2*/
@@ -394,7 +418,7 @@ section.contTestimonios {
       height: 100%;
       background-image: url('tu-imagen.jpg');
       background-size: cover;
-      background-position: center;
+      background-position:center;
       filter: blur(0.375rem); /* 6px */
       z-index: 0;
   }

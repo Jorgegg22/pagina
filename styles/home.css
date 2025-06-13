@@ -1,3 +1,5 @@
+/*PANTALLAS ORDENADOR*/
+
 /*ESTILO PARA IMAGEN GRANDE*/
 
 .introGrande{
@@ -335,14 +337,16 @@ section.contTestimonios {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    margin-top: -2%;
+    margin-top: -3%;
+    
 }
 
 .testimonio{
     width: 100%;
     max-width: 31.25rem; /* antes 500px */
     height: 100%;
-    margin: 1rem auto;
+    margin-top: -2rem;
+    margin-bottom: 5rem;   
     padding: 1.5rem;
     border-radius: 18px;
     background-color: #fff;
@@ -373,6 +377,8 @@ section.contTestimonios {
 
 
 /* ESTILO PARA IMAGEN GRANDE - MÓVIL */
+
+
 @media screen and (max-width: 768px) {
 
   .introGrande {

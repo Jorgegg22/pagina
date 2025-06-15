@@ -541,14 +541,15 @@ section.contTestimonios {
       border-top: 0.0625rem solid rgba(218, 165, 32, 0.1);
       border-bottom: 0.0625rem solid rgba(218, 165, 32, 0.05);
       box-shadow: inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37);
-      height: 80rem; /* 400px */
-      width: 100%;
-      margin-top: 29.375rem; /* -150px */
+      height: 90rem; /* 400px */
+      width: 89%;
+      
+      margin: 29rem auto; /* -150px */
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 2rem;
+      gap: 5rem;
       transition: transform 1.5s ease, box-shadow 1.0s ease;
   }
 
@@ -562,8 +563,9 @@ section.contTestimonios {
       justify-content: center;
       align-items: center;
       gap: 2.1875rem; /* 35px */
-      margin-left: -2.0rem;
-  }
+      
+    
+    }
 
   div.contGeneralSec:hover{
     
@@ -604,7 +606,7 @@ section.contTestimonios {
 
   .frase {
       text-align: center;
-      margin: 6.875rem auto; /* 110px */
+      margin: 2.875rem auto; /* 110px */
       font-size: 1.5rem; /* 36px */
       font-style: italic;
       background: linear-gradient(
@@ -632,7 +634,7 @@ section.contTestimonios {
 
   section.contVentajas {
     width: 190%;
-    height: 65rem;
+    height: 50rem;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -662,17 +664,17 @@ section.contTestimonios {
   .contVentajas .textoVentajas {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       margin-top: 10%;
       width: 70%;
       height: 72%;
-      gap: 1%;
+      
   }
 
   .contVentajas .textoVentajas .cajasVentajas {
-      width: 100%;
-      height: 9%;
+      width: 127%;
+      height: 12%;
       background: linear-gradient(
           135deg,
           rgba(255, 255, 255, 0.07),
@@ -693,7 +695,7 @@ section.contTestimonios {
     .contVentajas .textoVentajas .cajasVentajas p{
         text-align: center;
         font-size: 0.8rem;
-        padding: 1%;
+        padding: 1.5%;
     }
 
   /* ESTILOS TESTIMONIOS */

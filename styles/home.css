@@ -262,6 +262,7 @@ div.contGeneralSec section p{
 }
 
 div.contGeneralTerc{ 
+    
     background-size: contain;
     background-size: 100%;
     margin: 0.625rem 6.25rem; /* antes 10px 100px */
@@ -272,6 +273,8 @@ div.contGeneralTerc{
 }
 
 section.contVentajas{
+    grid-column: 1/6;
+    grid-row: 1/7;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -280,10 +283,11 @@ section.contVentajas{
 }
 
 section.contProducto{
-    
+    grid-column: 6/13;
+    grid-row: 1/7;
     display: flex;
     width: 100%;
-    height: 60vh;
+    
 }
 
 /*ESTILOS VENTAJAS*/
@@ -623,6 +627,7 @@ section.contTestimonios {
   }
 
   div.contGeneralTerc {
+    
       background-size: contain;
       background-size: 100%;
       margin: 0.625rem 6.25rem; /* 10px 100px */
@@ -640,13 +645,13 @@ section.contTestimonios {
     justify-content: start;
     align-items: center; /* -22px */
     margin-left: 0.1rem; ;
-}
+    }
 
   section.contProducto {
       grid-column: 6/13;
       grid-row: 1/7;
       display: flex;
-  }
+    }
 
   /* ESTILOS VENTAJAS */
 
@@ -654,12 +659,12 @@ section.contTestimonios {
       text-align: center;
       margin-top: 3.125rem; /* 50px */
       font-size: 1.5rem; /* 34px */
-  }
+    }
 
   .contVentajas .tituloVentajas {
       display: flex;
       gap: 0.6875rem; /* 11px */
-  }
+    }
 
   .contVentajas .textoVentajas {
       display: flex;
@@ -669,8 +674,7 @@ section.contTestimonios {
       margin-top: 10%;
       width: 70%;
       height: 72%;
-      
-  }
+    }
 
   .contVentajas .textoVentajas .cajasVentajas {
       width: 127%;
@@ -689,7 +693,7 @@ section.contTestimonios {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-  }
+    }
 
 
     .contVentajas .textoVentajas .cajasVentajas p{
@@ -711,7 +715,7 @@ section.contTestimonios {
       justify-content: space-around;
       align-items: center;
       margin-top: -2%;
-  }
+    }
 
   .testimonio {
       width: 60vw;
@@ -727,7 +731,7 @@ section.contTestimonios {
       font-size: 1.1rem;
       line-height: 1.6;
       
-  }
+    }
 
   .testimonio:hover {
       transform: none;
@@ -735,11 +739,11 @@ section.contTestimonios {
        /* 5px */
      
      
-  }
+    }
 
   .testimonio .nombreTestimonio {
       margin-top: 5%;
-  }
+    }
 
   .testimonio .notaTestimonio img {
     display: block;  

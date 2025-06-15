@@ -272,8 +272,6 @@ div.contGeneralTerc{
 }
 
 section.contVentajas{
-    grid-column: 1/6;
-    grid-row: 1/7;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -282,9 +280,10 @@ section.contVentajas{
 }
 
 section.contProducto{
-    grid-column: 6/13;
-    grid-row: 1/7;
+    
     display: flex;
+    width: 100%;
+    height: 60vh;
 }
 
 /*ESTILOS VENTAJAS*/

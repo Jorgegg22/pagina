@@ -478,6 +478,11 @@ section.contTestimonios {
       
   }
 
+  section.cont:hover{
+    transform: none;
+    box-shadow:inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37) ;
+  }
+
   /* ORGANIZACION GRIDS: aquí el grid será muy difícil en móvil, mejor con flex o column */
 
   section.contVideos {
@@ -515,7 +520,7 @@ section.contTestimonios {
   }
 
   section.contInfo div.tituloInfo h1 {
-      font-size: 1.575rem; /* 36px */
+      font-size: 1.5rem; /* 36px */
   }
 
   section.contInfo p {
@@ -558,6 +563,14 @@ section.contTestimonios {
       justify-content: center;
       align-items: center;
       gap: 2.1875rem; /* 35px */
+      margin-left: -2.0rem;
+  }
+
+  div.contGeneralSec:hover{
+    
+    transform: none;
+    box-shadow:inset 0.0625rem 0 0.625rem rgba(255, 255, 255, 0.37) ;
+ 
   }
 
   div.contGeneralSec section h1 {
@@ -593,7 +606,7 @@ section.contTestimonios {
   .frase {
       text-align: center;
       margin: 6.875rem auto; /* 110px */
-      font-size: 2.25rem; /* 36px */
+      font-size: 1.5rem; /* 36px */
       font-style: italic;
       background: linear-gradient(
           90deg,
@@ -612,21 +625,21 @@ section.contTestimonios {
       background-size: contain;
       background-size: 100%;
       margin: 0.625rem 6.25rem; /* 10px 100px */
-      display: grid;
-      grid-template-columns: repeat(12, 8.333vw); /* 100px ~ 8.333vw */
-      grid-template-rows: repeat(6, 8.333vh); /* 100px ~ 8.333vh */
-      gap: 3.125rem; /* 50px */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
   }
 
   section.contVentajas {
-      grid-column: 1/6;
-      grid-row: 1/7;
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      align-items: center;
-      margin-left: -1.375rem; /* -22px */
-  }
+    width: 190%;
+    height: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center; /* -22px */
+    margin-left: 0.1rem; ;
+}
 
   section.contProducto {
       grid-column: 6/13;
@@ -639,7 +652,7 @@ section.contTestimonios {
   .contVentajas h1 {
       text-align: center;
       margin-top: 3.125rem; /* 50px */
-      font-size: 2.125rem; /* 34px */
+      font-size: 1.5rem; /* 34px */
   }
 
   .contVentajas .tituloVentajas {
@@ -655,12 +668,12 @@ section.contTestimonios {
       margin-top: 10%;
       width: 70%;
       height: 72%;
-      gap: 3%;
+      gap: 1%;
   }
 
   .contVentajas .textoVentajas .cajasVentajas {
       width: 100%;
-      height: 13%;
+      height: 9%;
       background: linear-gradient(
           135deg,
           rgba(255, 255, 255, 0.07),
@@ -677,6 +690,13 @@ section.contTestimonios {
       align-items: center;
   }
 
+
+    .contVentajas .textoVentajas .cajasVentajas p{
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 1%;
+    }
+
   /* ESTILOS TESTIMONIOS */
 
   section.contTestimonios {
@@ -686,13 +706,14 @@ section.contTestimonios {
       padding: 2rem;
       text-align: center;
       display: flex;
+      flex-direction: column;
       justify-content: space-around;
       align-items: center;
       margin-top: -2%;
   }
 
   .testimonio {
-      width: 90vw;
+      width: 60vw;
       max-width: 31.25rem; /* 500px */
       height: 100%;
       margin: 1rem auto;
@@ -704,22 +725,33 @@ section.contTestimonios {
       box-shadow: 0.0625rem 0.25rem 0.9375rem rgba(212, 175, 55, 0.425);
       font-size: 1.1rem;
       line-height: 1.6;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
   }
 
   .testimonio:hover {
-      transform: translateY(-0.3125rem); /* 5px */
-      box-shadow: 0.0625rem 0.0625rem 1.125rem 0.625rem rgba(218, 165, 32, 0.3),
-          inset 0.125rem 0.125rem 0.625rem rgba(255, 255, 255, 0.37);
-      border-color: rgba(212, 175, 55, 0.7);
+      transform: none;
+      box-shadow: none;
+       /* 5px */
+     
+     
   }
 
   .testimonio .nombreTestimonio {
       margin-top: 5%;
   }
 
-  .testimonio .notaTestimonio {
-      margin-top: 5%;
-  }
+  .testimonio .notaTestimonio img {
+    display: block;  
+    margin: 8%;
+    
+    width: 100%;
+      
+
+    }
+
+    .testimonio .notaTestimonio{
+        display: flex;
+        justify-content: center
+    }
 
 }

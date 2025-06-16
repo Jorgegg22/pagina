@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.625rem; /* antes 10px */
+    
 }
 
 .fondo {
@@ -39,10 +39,11 @@
 }
 
 .titulo{
-    margin-top: 10rem; /* antes 160px */
+    
+    margin-top: 20rem; /* antes 160px */
     display: flex;
     justify-content: center;
-    gap: 1.4375rem; /* antes 23px */
+     /* antes 23px */
     align-items: center;
     font-size: 2.875rem; /* antes 46px */
     z-index: 1;
@@ -50,6 +51,7 @@
 
 .subtitulo{
     z-index: 1;
+    margin-top: -5rem;
 }
 
 .dorado{

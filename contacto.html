@@ -7,6 +7,7 @@
     <link href="styles/footer.css" rel="stylesheet">
     <link href="styles/general.css" rel="stylesheet">
     <link href="styles/contacto.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <title>VIP SINGLE - CONTACTO</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
         </section>
         <section class="formulario">
             <h2>CONTACTA CON NOSOTROS</h2>
-            <form action="https://formspree.io/f/xblyyydr" method="post" >
+            <form action="https://formsubmit.co/jgg2232004@gmail.com" method="post" >
 
                 <input type="text" id="nombre" name="nombre" required placeholder="NOMBRE"><br><br>
 
@@ -43,10 +44,16 @@
 
             
                 <textarea id="mensaje" name="mensaje" rows="5" cols="40" required placeholder="MENSAJE"></textarea><br><br>
+
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+                <input type="hidden" name="_captcha" value="false">
+
                 <div class="botonFormulario">
                     <input class="botondorado"  type="submit" value="Enviar">
                     <input class="botondorado"  type="reset" value="Borrar">
                 </div>
+
                 
             </form>
         </section>

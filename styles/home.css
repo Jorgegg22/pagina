@@ -210,7 +210,7 @@ div.contGeneralSec:hover{
 }
 
 div.contGeneralSec section{
-    width: 21.875rem; /* antes 350px */
+    width: 23.875rem; /* antes 350px */
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -114,3 +114,20 @@ textarea::placeholder {
 }
 
    
+
+#pop-up{
+  width: 530px;
+  height: 320px;
+  background-color: white;
+  position: absolute;
+  top: 40%;
+  right: 35%;
+  z-index: 10000;
+  border-radius: 10px;
+  display: none;
+}
+
+#pop-up p{
+  color: black;
+  
+}

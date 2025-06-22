@@ -21,6 +21,11 @@ nav{
 }
 .logo{
     margin-left: 50px;
+    margin-top: 8px;
+}
+
+.logo img{
+    width: 30%;
 }
 
 

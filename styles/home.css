@@ -289,8 +289,87 @@ section.contProducto{
     grid-row: 1/7;
     display: flex;
     width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/*ESTILOS FOTOS PRODUCTO*/
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 10000;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.modal-contenido {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #000;
+}
+
+
+.cerrar {
+  position: fixed;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s;
+}
+
+.cerrar:hover {
+  color: gold;
+}
+
+
+section.contProducto img{
+    width: 50%;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 5px;
+    transition: transform 1.5s ease,border 0.5s ease;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+section.contProducto img:hover{
+    border: 3px solid gold;
+    transform: scale(1.02);
+}
+
+section.contProducto a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.7s ease;
     
 }
+
+section.contProducto a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    transform: scale(1.1);
+    
+}
+
 
 /*ESTILOS VENTAJAS*/
 

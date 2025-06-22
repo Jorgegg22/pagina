@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
     <link href="styles/general.css" rel="stylesheet">
     <link href="styles/navbar.css" rel="stylesheet">
     <link href="styles/footer.css" rel="stylesheet">
@@ -55,7 +54,7 @@
                
             </div>
                 <p>VIP Single es una propuesta revolucionaria y, al mismo tiempo, tan antigua como la vida misma: conectar muchas personas. <br>Nuestra plataforma responde a la necesidad humana más básica y esencial: conocerse, crear vínculos, compartir momentos.
-                Ya sea que estés buscando una amistad auténtica o una relación de pareja estable, VIP Single te ofrece un espacio seguro, exclusivo y personalizado para encontrar personas afines.
+                Ya sea que estés buscando una amistad auténtica o una relación de pareja estable.
                 <br>Descubre una nueva forma de hacer conexiones reales, donde lo importante no es solo coincidir, sino también construir relaciones que marquen la diferencia</p>
         </section>
         
@@ -110,9 +109,16 @@
             </div>
             
         </section>
-        <section class="cont contProducto">
-
+        <section class="contProducto">
+            <img src="assets/images/articulo-general.jpg" alt="Producto" id="imgProducto">
+            <a href="servicio.html" class="frase">Saber más</a>
         </section>
+
+        <!-- Modal -->
+        <div id="modalImagen" class="modal">
+            <span class="cerrar" id="cerrarModal">&times;</span>
+            <img class="modal-contenido" id="imgGrande" alt="Imagen grande">
+        </div>
 
     </div>
     <h1 class="frase">CLIENTES SATISFECHOS</h1>
@@ -166,6 +172,6 @@
            
            
     </footer>
-
+    <script src="abrir-imagen.js"></script>
 </body>
 </html>

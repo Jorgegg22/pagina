@@ -27,17 +27,14 @@
     </header>
     <div class="introduccion">
         <img src="assets/images/logo.png">
-        <div class="textoIntroduccion">
-            <p>HOLA</p>
-        </div>
-
+        <h1 class="frase">VIP SINGLE</h1>
     </div>
     <section class="presentacion">
+        <div class="textoIntroduccion">
+            <p>Hemos diseñado 2 productos,que estarán disponibles en mercado y se venderán en una tienda física,con los que nos distinguiremos socialmente llamado "vip single"</p>
+        </div>
         <section class="presentacionGeneral">
             <img src="assets/images/articulo-general.webp" id="imgProducto">
-            <div class="textoPresentacion">
-                <p>HOLA</p>
-            </div>
         </section>
         <section class="galeria">
             <img src="assets/images/articulo-1.webp" id="imgProducto1">
@@ -49,9 +46,55 @@
             <span class="cerrar" id="cerrarModal">&times;</span>
             <img class="modal-contenido" id="imgGrande" alt="Imagen grande">
         </div>
-        <section class="presentacionGaleria"></section>
+        <section class="presentacionGaleria">
+            <div class="textoGaleria">
+                <p>El más significativo y el que nos representa es un adhesivo,que podrás colocar en la parte trasera del móvil dejando obsoleto todas las aplicaciones existentes.Siendo visible las 24 horas del día los 365 días del año</p>
+            </div>
+            <div class="textoGaleria">
+                <p>La segunda opción es una pulsera para quienes en su día a día no puedan usar el télefono de continuamente por su trabajo u ocio.</p>
+            </div>
+        </section>
 
     </section>
-    <script src="abrir-imagen.js"></script>
+    <section class="explicacionFinal">
+        <p>La gente se aisla en la tecnologia,aislándose y siendo más invisible, pretendemos darle un revés al mercado, haciéndonos visibles, según un estudio nos cruzamos al día con 1500 personas.En la calle, trabajo, Supermercado, Gym, etc.Queremos que la gente vuelva a levantar la mirada y darse cuenta del entorno que le rodea.</p>
+    </section>
+    <footer class="footer">
+        <p>© 2025 VIP Single. Todos los derechos reservados.</p>
+        <div class="footerContent">
+            <div class="footerLinks">
+                <h3>Compañia</h3>
+                <div class="links">
+                    <a href="/aviso-legal">Aviso legal</a>
+                    <a href="/privacidad">Privacidad</a>
+                </div>
+                    
+            </div>
+            <div class="footerLinks">
+                <h3>Ayuda</h3>
+                <div class="links">
+                    <a href="contacto.html">Contacto</a>
+                </div>
+                    
+            </div>
+            <div class="footerLinks">
+                <h3>Siguenos</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><img src="assets/images/icons8-facebook (1).svg" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="assets/images/icons8-instagram.svg" alt="Instagram"></a>
+                    <a href="#" target="_blank"><img src="assets/images/icons8-tiktok.svg" alt="TikTok"></a>
+                </div>
+            </div>
+        </div>
+           
+           
+    </footer>
+    <script src="abrir-imagen-producto.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const texto = document.querySelector('.frase');
+            texto.classList.add('visible');
+        });
+    </script>
 </body>
 </html>

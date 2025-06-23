@@ -352,7 +352,7 @@ section.contProducto img{
 }
 
 section.contProducto img:hover{
-    border: 3px solid gold;
+    border: 3px solid #bfa15e;
     transform: scale(1.02);
 }
 

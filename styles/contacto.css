@@ -15,16 +15,32 @@
 
 /*FORMULARIO MAPA*/
 
-
+.frase{
+    text-align: center;
+    margin: 6.875rem auto; /* antes 110px */
+    font-size: 2.25rem; /* antes 36px */
+    font-style: italic;
+    background: linear-gradient(90deg, 
+        rgba(255, 255, 255, 1) 20%,
+           60%,
+        #f5c451 75%,
+        #f8e473 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
 
 .mapa {
 
   width: 50%;
   height: 80vh;
-  border: 2px solid #d4af37; /* borde dorado */
   border-radius: 12px;
   overflow: hidden; /* para que el borde redondeado se aplique al iframe */
-  box-shadow: 0 0 4px rgba(212, 175, 55, 0.4); /* sombra dorada suave */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mapa iframe {

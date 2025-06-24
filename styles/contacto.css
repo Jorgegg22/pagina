@@ -157,6 +157,7 @@ textarea::placeholder {
     height: auto;
     padding: 5% 0;
     width: 95%;
+    margin-top: 150px;
   }
 
   .frase {

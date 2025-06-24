@@ -109,22 +109,19 @@ nav{
         align-items: center;
     }
 
-    .logo{
-        width: 60px;
-        margin-left: -50px;
-    }
 
   
 
     .logo a img{
         width: 50px;
+        margin-left: -50px;
     }
 
     
     
     .menu {
-        gap: 14px;
-        margin-left: 155px;
+        gap: 18px;
+        margin-left: 165px;
         margin-top: -10px;
         width: 100%;
         align-items: center;

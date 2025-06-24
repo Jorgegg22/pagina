@@ -720,13 +720,13 @@ section.contTestimonios {
   }
 
   section.contVentajas {
-    width: 190%;
-    height: 50rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center; /* -22px */
-    margin-left: 0.1rem; ;
+        width: 190%;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center; /* -22px */
+        margin-left: 0.1rem; ;
     }
 
   section.contProducto {

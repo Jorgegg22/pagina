@@ -152,7 +152,50 @@ textarea::placeholder {
 
 @media screen and (max-width: 768px){
 
-  
+  .contenido {
+    flex-direction: column;
+    height: auto;
+    padding: 5% 0;
+    width: 95%;
+  }
+
+  .frase {
+    font-size: 1.75rem;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+
+  .mapa {
+    width: 90%;
+    height: 50vh;
+    margin-bottom: 2rem;
+  }
+
+  .formulario {
+    width: 100%;
+    gap: 3vh;
+  }
+
+  .formulario form {
+    width: 90%;
+  }
+
+  .botonFormulario {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .botondorado {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  input,
+  textarea {
+    font-size: 15px;
+  }
+
 
 
 }

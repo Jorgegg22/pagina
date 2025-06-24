@@ -735,6 +735,10 @@ section.contTestimonios {
       display: flex;
     }
 
+   section.contProducto img{
+        width: 120%;
+    }
+
   /* ESTILOS VENTAJAS */
 
   .contVentajas h1 {

@@ -121,10 +121,10 @@ nav{
     
     .menu {
         gap: 18px;
-        margin-left: 185px;
+        margin-left: 105px;
         margin-top: -10px;
-        width: 100%;
         align-items: center;
+        border: 1px solid red;
     }
 
     .menu li a {

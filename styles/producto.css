@@ -5,7 +5,7 @@ p{
 }
 
 .introduccion{
-    margin: 1rem auto;
+    margin: 6rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,14 +15,14 @@ p{
 .introduccion img{
     display: block;
     width: 20rem;
-    clip-path: inset(0 0 150px 0); /* top right bottom left */
+   
 
 }
 
-.frase{
+h1.frase{
     text-align: center;
-    margin: 6.875rem auto; /* antes 110px */
-    font-size: 3.50rem; /* antes 36px */
+
+    font-size: 3.50rem;
     font-style: italic;
     background: linear-gradient(90deg, 
         rgba(255, 255, 255, 1) 20%,
@@ -33,7 +33,7 @@ p{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-emphasis-color: transparent;
-    margin-top: -10rem;
+ 
 
 }
 
@@ -274,10 +274,10 @@ p{
     clip-path: inset(0 0 50px 0);
   }
 
-  .frase {
-    font-size: 2rem;
+  h1.frase {
+    font-size: 1.7rem;
     margin: 4rem auto 1rem auto;
-    margin-top: -3rem;
+    margin-top: -1rem;
     padding: 0 1rem;
     text-align: center;
   }

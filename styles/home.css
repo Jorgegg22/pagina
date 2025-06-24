@@ -500,10 +500,11 @@ section.contTestimonios {
       color: white;
       text-align: center;
       padding: 1.25rem; /* 20px */
+
   }
 
   .titulo {
-      margin-top: 25vh; /* aprox 160px en móvil */
+      margin-top: 16vh; /* aprox 160px en móvil */
       display: flex;
       justify-content: center;
       gap: 1.4375rem; /* 23px */
@@ -515,7 +516,7 @@ section.contTestimonios {
   .subtitulo h2{
       z-index: 1;
       font-size: 1.2rem;
-      margin-top: 2vh;
+      margin-top: 15vh;
   }
 
   .dorado {

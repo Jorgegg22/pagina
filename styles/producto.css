@@ -124,10 +124,10 @@ p{
 
 
 
-img{
+.presentacion img{
     
     cursor: pointer;
-    border: none;
+    border: 2px transparent;
     transition: transform 1.5s ease;
     padding: 5px;
     border-radius: 10px;

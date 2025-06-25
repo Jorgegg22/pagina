@@ -460,7 +460,7 @@ section.contTestimonios {
 
 
 
-/* ESTILO PARA IMAGEN GRANDE - MÓVIL */
+/* PANTALLA MOVIL */
 
 
 @media screen and (max-width: 768px) {
@@ -846,3 +846,178 @@ section.contTestimonios {
     }
 
 }
+
+
+
+/* PANTALLA TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Aquí van los estilos específicos para tablet */
+
+  .introGrande {
+    height: 40rem;
+  }
+
+  .titulo {
+    margin-top: 15rem;
+    font-size: 2.5rem;
+  }
+
+  .subtitulo {
+    margin-top: -4rem;
+  }
+
+  .contGeneral {
+    margin: 15rem auto;
+    gap: 6rem;
+  }
+
+  section.contVideos video {
+    width: 35rem;
+    height: 20rem;
+  }
+
+  section.contInfo p,
+  div.contGeneralSec section p {
+    font-size: 1rem;
+    max-width: 30rem;
+  }
+
+  div.contGeneralSec {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  div.contGeneralSec section {
+    width: 90%;
+  }
+
+  .frase {
+    font-size: 2rem;
+    margin: 4rem auto;
+  }
+
+  div.contGeneralTerc {
+    margin: 0 2rem;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 2rem;
+  }
+
+  section.contVentajas,
+  section.contProducto {
+    grid-column: 1 / -1;
+    margin-left: 0;
+  }
+
+  section.contProducto img {
+    width: 70%;
+    margin-top: 2rem;
+  }
+
+  section.contTestimonios {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+
+
+
+/*PANTALLA PORTATIL*/
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+  .introGrande {
+    height: 40rem; /* reducir un poco la altura para laptops */
+  }
+
+  .titulo {
+    margin-top: 15rem; /* ajustar margen top */
+    font-size: 2.5rem; /* un poco más pequeño */
+  }
+
+  .subtitulo {
+    margin-top: -4rem;
+  }
+
+  div.contGeneral {
+    margin: 15rem auto; /* menos margen vertical */
+    gap: 6rem; /* reducir gap entre elementos */
+  }
+
+  section.contVideos video {
+    width: 35rem; /* videos más pequeños */
+    height: 20rem;
+  }
+
+  section.contInfo p {
+    width: 28rem; /* texto un poco más estrecho */
+    max-width: 33rem;
+    font-size: 1rem;
+  }
+
+  div.contGeneralSec {
+    height: 20rem;
+    margin-top: -7rem;
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+  }
+
+  div.contGeneralSec section {
+    width: 20rem;
+    gap: 1.5rem;
+  }
+
+  div.contGeneralSec section h1 {
+    font-size: 1.5rem;
+  }
+
+  div.contGeneralSec section p {
+    font-size: 1rem;
+    max-width: 30rem;
+  }
+
+  .frase {
+    margin: 5rem auto;
+    font-size: 1.8rem;
+  }
+
+  div.contGeneralTerc {
+    margin: 0.5rem 4rem;
+    grid-template-columns: repeat(12, 5rem);
+    grid-template-rows: repeat(6, 5rem);
+    gap: 2rem;
+  }
+
+  section.contProducto img {
+    width: 40%;
+    margin-top: 8%;
+  }
+
+  section.contVentajas h1 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  .contVentajas .textoVentajas {
+    width: 60%;
+    gap: 2%;
+  }
+
+  section.contTestimonios {
+    margin-top: -3%;
+    padding: 1rem;
+  }
+
+  .testimonio {
+    max-width: 22rem;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+}
+

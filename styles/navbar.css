@@ -95,7 +95,9 @@ nav{
 
 
 
-@media screen and (max-width: 768px) {
+/*PANTALLA MOVIL*/
+
+@media screen and (max-width: 767px) {
     nav {
         top: 0;
         left: 0;
@@ -171,3 +173,40 @@ nav{
     }
 
 }
+
+
+/*PANTALLA TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    height: 70px;
+    width: 94%;
+    left: 3%;
+    top: 10px;
+    flex-direction: row;
+  }
+
+  .logo {
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+
+  .logo img {
+    width: 40%;
+  }
+
+  .menu {
+    margin-right: 60px;
+    gap: 30px;
+  }
+
+  .menu li a {
+    width: 100px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+

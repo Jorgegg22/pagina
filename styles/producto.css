@@ -1,3 +1,7 @@
+
+/*PANTALLA ORDENADOR*/
+
+
 /*INTRODUCCION*/
 
 p{
@@ -258,7 +262,7 @@ h1.frase{
         transform: scale(1.02);
 }
 
-/*MOVIL*/
+/*PANTALLA MOVIL*/
 
 @media (max-width: 768px) {
   p {
@@ -372,9 +376,164 @@ h1.frase{
     margin: 2rem auto 5rem auto;
   }
 
+}
 
 
-  
+/*PANTALLA TABLET*/
 
-  
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  p {
+    font-size: 1rem;
+  }
+
+  .introduccion {
+    margin: 4rem auto;
+  }
+
+  .introduccion img {
+    width: 15rem;
+  }
+
+  h1.frase {
+    font-size: 2.5rem;
+  }
+
+  .textoIntroduccion,
+  .textoPresentacion,
+  .textoGaleria {
+    padding: 2rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .presentacion {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .presentacionGeneral {
+    grid-column: 1 / -1;
+    grid-row: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .presentacionGeneral img {
+    width: 60%;
+    margin-left: 0;
+  }
+
+  .galeria {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .galeria img {
+    width: 70%;
+  }
+
+  .presentacionGaleria {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .textoGaleria {
+    height: auto;
+    padding: 2rem;
+  }
+
+  .explicacionFinal {
+    margin: 4rem auto 6rem auto;
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    font-size: 1rem;
+  }
+}
+
+
+
+/*PANTALLA PORTATIL*/
+
+@media (max-width: 1440px) {
+
+  .introduccion {
+    margin: 5rem auto;
+  }
+
+  .introduccion img {
+    width: 18rem;
+  }
+
+  h1.frase {
+    font-size: 3rem;
+  }
+
+  .textoIntroduccion{
+    grid-column: 2/7;
+    width: 94%;
+  }
+
+
+  .textoPresentacion,
+  .textoGaleria,
+  .explicacionFinal {
+    padding: 2rem 1rem;
+    width: 85%;
+  }
+
+  .presentacion {
+    grid-template-columns: repeat(9, 90px);
+    grid-template-rows: repeat(9, 90px);
+    gap: 4rem;
+    margin-left: -40px;
+  }
+
+  .presentacionGeneral img {
+    width: 80%;
+    margin-left: -4rem;
+  }
+
+  .galeria {
+    width: 100%;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .galeria img {
+    width: 25%;
+  }
+
+  .presentacionGaleria {
+    gap: 2rem;
+    margin-top: -1rem;
+  }
+
+  .explicacionFinal {
+    margin-top: -10rem;
+    margin-bottom: 8rem;
+    height: auto;
+  }
+
+  .modal-contenido {
+    max-width: 95%;
+    max-height: 75vh;
+  }
+
+  h1.frase,
+  .textoIntroduccion,
+  .textoPresentacion,
+  .textoGaleria,
+  .explicacionFinal {
+    text-align: center;
+  }
+
 }

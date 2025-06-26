@@ -925,7 +925,7 @@ section.contTestimonios {
     grid-template-rows: repeat(6, 7vw);
     gap: 1.1rem;
     max-width: 98vw;
-    overflow-x: auto;
+    
   }
   section.contProducto img {
     width: 82%;

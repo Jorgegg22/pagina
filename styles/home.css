@@ -851,79 +851,215 @@ section.contTestimonios {
 
 /* PANTALLA TABLET */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Aquí van los estilos específicos para tablet */
+/* MEDIA QUERY PARA TABLETS (vertical y horizontal) */
 
+
+/* MEDIA QUERY PARA TABLET VERTICAL (portrait) */
+@media (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
   .introGrande {
-    height: 40rem;
+    height: 35rem;
+    min-height: 55vh;
+    max-width: 98vw;
+    padding: 0 3vw;
   }
-
   .titulo {
-    margin-top: 15rem;
-    font-size: 2.5rem;
+    margin-top: 9rem;
+    font-size: 2.2rem;
+    padding: 0 0.5rem;
+    letter-spacing: 0.02em;
   }
-
   .subtitulo {
-    margin-top: -4rem;
+    margin-top: -2.5rem;
+    font-size: 1.2rem;
+    padding: 0 1rem;
   }
-
-  .contGeneral {
-    margin: 15rem auto;
-    gap: 6rem;
+  .contenido {
+    padding: 1.3rem 1rem;
+    font-size: 1.07rem;
   }
-
+  div.contGeneral {
+    margin: 8rem auto;
+    gap: 3rem;
+    padding: 0 2vw;
+  }
   section.contVideos video {
-    width: 35rem;
-    height: 20rem;
+    width: 97vw;
+    max-width: 28rem;
+    height: 15rem;
+    object-fit: cover;
   }
-
+  section.contInfo,
+  section.contObjetivo {
+    padding: 1rem 0.5rem;
+    gap: 0.7rem;
+    max-width: 97vw;
+  }
   section.contInfo p,
-  div.contGeneralSec section p {
-    font-size: 1rem;
-    max-width: 30rem;
-  }
-
-  div.contGeneralSec {
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  div.contGeneralSec section {
+  section.contObjetivo p {
     width: 90%;
+    font-size: 1.03rem;
+    max-width: 95vw;
+    margin-bottom: 1.1em;
   }
-
-  .frase {
-    font-size: 2rem;
-    margin: 4rem auto;
-  }
-
-  div.contGeneralTerc {
-    margin: 0 2rem;
-    grid-template-columns: repeat(12, 1fr);
+  div.contGeneralSec {
+    flex-direction: column;
     gap: 2rem;
+    align-items: center;
+    padding: 1.2rem 0.5rem;
+    margin-top: -3.5rem;
   }
-
-  section.contVentajas,
-  section.contProducto {
-    grid-column: 1 / -1;
-    margin-left: 0;
+  div.contGeneralSec section {
+    width: 95vw;
+    max-width: 22rem;
+    gap: 1rem;
   }
-
+  .frase {
+    font-size: 1.4rem;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+    max-width: 90vw;
+  }
+  div.contGeneralTerc {
+    margin: 1rem 0.5rem;
+    grid-template-columns: repeat(12, 7vw);
+    grid-template-rows: repeat(6, 7vw);
+    gap: 1.1rem;
+    max-width: 98vw;
+    overflow-x: auto;
+  }
   section.contProducto img {
-    width: 70%;
-    margin-top: 2rem;
+    width: 82%;
+    margin-top: 4%;
+    min-width: 160px;
+    max-width: 300px;
   }
-
   section.contTestimonios {
     flex-direction: column;
     gap: 2rem;
+    padding: 1.2rem 0.7rem;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonio {
+    width: 98vw;
+    max-width: 26rem;
+    margin: 0.5rem auto 1.5rem auto;
+    padding: 1rem;
+    font-size: 1rem;
   }
 }
 
+/* MEDIA QUERY PARA TABLET HORIZONTAL (landscape) */
+@media (min-width: 900px) and (max-width: 1200px) and (orientation: landscape) {
+  .introGrande {
+    height: 28rem;
+    min-height: 50vh;
+    max-width: 95vw;
+    padding: 0 4vw;
+  }
+  .titulo {
+    margin-top: 6rem;
+    font-size: 2.2rem;
+    padding: 0 1rem;
+    letter-spacing: 0.02em;
+  }
+  .subtitulo {
+    margin-top: -2rem;
+    font-size: 1.1rem;
+    padding: 0 1.5rem;
+  }
+  .contenido {
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+  }
+  div.contGeneral {
+    margin: 6rem auto;
+    gap: 2.5rem;
+    padding: 0 2vw;
+    max-width: 95vw;
+  }
+  div.contGeneralTerc {
+    margin: 1rem 2vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.2rem;
+    
+  }
+  .contVentajas{
+    width: 1000px;
+    height: 600px;
+  }
 
+  section.contVideos video {
+    width: 25rem;
+    height: 14rem;
+    max-width: 90vw;
+    object-fit: cover;
+  }
+  section.contInfo,
+  section.contObjetivo {
+    padding: 1.2rem 0.7rem;
+    gap: 0.7rem;
+    max-width: 95vw;
+  }
+  section.contInfo p,
+  section.contObjetivo p {
+    width: 90%;
+    font-size: 1rem;
+    max-width: 90vw;
+    margin-bottom: 1em;
+  }
+  div.contGeneralSec {
+    width: 98%;
+    display: flex;
+    padding: 1rem 0.7rem;
+    gap: -12px;
+    margin-top: -3rem;
+    justify-content: start;
+    align-items: start;
+  }
+  div.contGeneralSec section {
+    width: 50px;
+    gap: 1rem;
+  }
+  .frase {
+    font-size: 1.2rem;
+    margin: 1.7rem auto;
+    padding: 0 1rem;
+    max-width: 85vw;
+  }
+  section.contProducto img {
+    width: 90%;
+    margin-top: 3%;
+    min-width: 180px;
+    max-width: 300px;
+  }
+  section.contTestimonios {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+    padding: 1rem 0.7rem;
+    margin-top: 0;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .testimonio {
+    width: 45vw;
+    max-width: 20rem;
+    margin: 0.5rem 0.7rem 1.5rem 0.7rem;
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
 
+  .cajasVentajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
 
 /*PANTALLA PORTATIL*/
 

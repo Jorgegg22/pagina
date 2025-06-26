@@ -148,7 +148,7 @@ textarea::placeholder {
   
 }
 
-
+/*PANTALLA MOVIL*/
 
 @media screen and (max-width: 768px){
 
@@ -199,4 +199,61 @@ textarea::placeholder {
 
 
 
+}
+
+/*PANTALLA TABLET*/
+
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .contenido {
+    flex-direction: column;
+    height: auto;
+    margin: 4rem auto;
+    padding: 2rem 1rem;
+  }
+
+  .mapa {
+    width: 90%;
+    height: 300px; /* tamaño adecuado para tablets */
+    margin-bottom: 2rem;
+  }
+
+  .formulario {
+    width: 100%;
+    gap: 3rem;
+    padding: 0 1rem;
+  }
+
+  .formulario form {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .botonFormulario {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .botondorado {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .frase {
+    font-size: 2rem;
+    margin: 3rem auto;
+  }
+
+  #pop-up {
+    width: 90%;
+    height: auto;
+    top: 30%;
+    right: 5%;
+    padding: 1.5rem;
+  }
+
+  #pop-up p {
+    font-size: 1rem;
+  }
 }

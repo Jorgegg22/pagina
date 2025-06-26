@@ -405,12 +405,13 @@ h1.frase{
   }
 
   .presentacion {
-    margin: 1.2rem auto;
+    margin-left:-100px;
     width: 97vw;
     grid-template-columns: repeat(9, 9vw);
     grid-template-rows: repeat(9, 8vw);
     gap: 1.6rem;
     overflow-x: auto;
+    
   }
 
   .presentacionGeneral {

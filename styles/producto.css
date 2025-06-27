@@ -297,7 +297,7 @@ h1.frase{
     flex-direction: column;
     width: 98vw;
     gap: 5rem;
-    margin-left: 5px;
+    margin-left: 15px;
   }
   .presentacionGeneral {
     grid-column: auto;
@@ -411,8 +411,8 @@ h1.frase{
     margin: 0 auto;
   }
 
-  section.presentacion {
-    margin-left: 17px;
+  .presentacion {
+    margin: 0 auto;
     width: 95vw;
     max-width: 900px;
     display: grid;

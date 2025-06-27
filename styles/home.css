@@ -1080,6 +1080,65 @@ section.contTestimonios {
   }
 }
 
+/* iPad Air 5 vertical (820px) ajuste fino */
+@media (min-width: 820px) and (max-width: 1180px) and (orientation: portrait) {
+  div.contGeneralSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 17px;
+
+  }
+
+  div.contGeneralSec section{
+    width: 30%;
+
+    
+  }
+
+  div.contGeneralSec section p{
+    font-size: 14px
+  }
+
+  div.contGeneralSec section h1{
+    font-size: 19px;
+
+  }
+
+  section.contVentajas{
+    margin-left: 5px;
+    height: 500px;
+    width: 400px;
+  }
+  section.contVentajas div h1{
+    font-size: 20px;
+  }
+
+
+  section.contVentajas div.textoVentajas div.cajasVentajas p{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  section.contProducto{
+    margin-top: 100px;
+  }
+
+  h1.mTablet{
+    margin-top: 120px;
+
+  }
+  
+}
+
+
+
+
 /*PANTALLA PORTATIL*/
 
 

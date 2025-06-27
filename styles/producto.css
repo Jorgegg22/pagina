@@ -381,7 +381,7 @@ h1.frase{
 
 
 /* TABLET VERTICAL */
-@media (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 600px) and (max-width: 1200px) and (orientation: portrait) {
   p { font-size: 1rem; }
 
   .introduccion {
@@ -464,7 +464,7 @@ h1.frase{
 }
 
 /* TABLET HORIZONTAL */
-@media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 600px) and (max-width: 1200px) and (orientation: landscape) {
   p { font-size: 1rem; }
 
   .introduccion {
@@ -567,9 +567,51 @@ h1.frase{
 }
 
 
+@media (min-width: 820px) and (max-width: 1180px) and (orientation: portrait){
+
+  section.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+  }
+
+  section.presentacion div{
+    margin-left: 45px;
+  }
+
+  section.presentacion .galeria{
+    margin-left: 65px;
+  }
+
+  section.explicacionFinal{
+    margin-top: 120px;
+   
+  }
+
+  section.presentacion section.presentacionGeneral img{
+    display: block;
+    margin-left: 50px;
+  
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) and (orientation: landscape){
+  section.presentacion div{
+    margin-left: 55px;
+  }
+
+  section.presentacion .galeria{
+    margin-left: 65px;
+  }
+
+}
+
 /*PANTALLA PORTATIL*/
 
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
 
   .introduccion {
     margin: 5rem auto;
@@ -596,11 +638,11 @@ h1.frase{
     width: 85%;
   }
 
-  .presentacion {
+  section.presentacion {
     grid-template-columns: repeat(9, 90px);
     grid-template-rows: repeat(9, 90px);
     gap: 4rem;
-    margin-left: -40px;
+    margin-left: -15px;
   }
 
   .presentacionGeneral img {

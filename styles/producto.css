@@ -387,40 +387,47 @@ h1.frase{
   .introduccion {
     margin: 3.5rem auto;
     padding: 0 2vw;
+    max-width: 900px;
   }
   .introduccion img {
     width: 13rem;
     max-width: 90vw;
   }
 
-  h1.frase {
-    font-size: 2.5rem;
+  h1.frase, h2 {
+    font-size: 2.2rem;
     padding: 0 1vw;
+    grid-column: 1 / -1;
+    width: 100%;
+    word-break: break-word;
+    margin-bottom: 1rem;
   }
 
   div.textoIntroduccion {
     padding: 1.2rem 0.7rem;
     font-size: 0.99rem;
-    margin-left: 5px;
+    margin-left: 0;
+    max-width: 900px;
+    margin: 0 auto;
   }
 
   .presentacion {
-    margin-left:-100px;
-    width: 97vw;
-    grid-template-columns: repeat(9, 9vw);
-    grid-template-rows: repeat(9, 8vw);
-    gap: 1.6rem;
-    overflow-x: auto;
-    
+    margin: 0 auto;
+    width: 95vw;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1.5rem;
   }
 
   .presentacionGeneral {
-    grid-column: 7/10;
-    grid-row: 1/5;
+    grid-column: 1 / 2;
+    grid-row: 1;
   }
   .presentacionGeneral img {
     width: 70%;
-    margin-left: -1.8rem;
+    margin-left: 0;
     max-width: 10rem;
   }
 
@@ -447,64 +454,72 @@ h1.frase{
   }
 
   .explicacionFinal {
-    margin: -7rem auto 4rem auto;
+    margin: 2rem auto 4rem auto;
     width: 95vw;
-    height: 10rem;
+    max-width: 900px;
+    min-height: 10rem;
     padding: 1rem 0.8rem;
     font-size: 0.99rem;
   }
 }
 
 /* TABLET HORIZONTAL */
-@media (min-width: 900px) and (max-width: 1200px) and (orientation: landscape) {
-  p { font-size: 0.95rem; }
+@media (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+  p { font-size: 1rem; }
 
   .introduccion {
     margin: 2rem auto;
     padding: 0 4vw;
+    max-width: 1100px;
   }
   .introduccion img {
     width: 10rem;
     max-width: 30vw;
+    height: auto;
   }
 
-  h1.frase {
+  h1.frase, h2 {
     font-size: 2rem;
     padding: 0 0.5vw;
+    grid-column: 1 / -1;
+    width: 100%;
+    word-break: break-word;
+    margin-bottom: 1rem;
   }
 
-  div.textoIntroduccion{
-    grid-column:2/6;
-    grid-row:1/3;
+  div.textoIntroduccion {
     width: 98%;
- 
+    margin: 0 auto;
   }
 
-  .presentacion {
-    border:1px solid red;
-    margin-left: 300px;
+  section.presentacion {
+    margin: 0 auto;
     width: 95vw;
-    grid-template-columns: repeat(7, 20px);
-    grid-template-rows: repeat(7, 20px);
-    gap: 1.2rem;
-    overflow-x: auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
   }
 
   .presentacionGeneral {
-    grid-column: 6/8;
-    grid-row: 1/5;
-
+    grid-column: 1 / 2;
+    grid-row: 1;
   }
+
   section.presentacionGeneral img {
-    width: 200px;
-    margin-left: -3.5rem;
+    width: 95%;
+    margin-left: 0;
+    max-width: 200px;
+    height: auto;
   }
 
- 
-
-  .presentacionGaleria{
-    grid-column:2/6 ;
-    grid-row:3/5 
+  .presentacionGaleria {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    margin-top: 0;
+    gap: 0.7rem;
   }
 
   .textoPresentacion,
@@ -514,29 +529,40 @@ h1.frase{
     font-size: 0.95rem;
   }
 
-  section.galeria {
-    width: 70%;
+  .galeria {
+    width: 90%;
     padding-top: 1rem;
     gap: 0.7rem;
-
-    
   }
+
   .galeria img {
     width: 24%;
     min-width: 70px;
+    height: auto;
   }
 
-  .presentacionGaleria {
-    margin-top: -0.6rem;
-    gap: 0.7rem;
-  }
-
-  .explicacionFinal {
-    margin: -5rem auto 2rem auto;
+  section.explicacionFinal {
+    margin-top: 100px;
     width: 90vw;
-    height: 8rem;
+    max-width: 1100px;
+    min-height: 8rem;
     padding: 0.9rem 0.5rem;
     font-size: 0.95rem;
+  }
+
+  /* Ajuste iframe y contenedor para que se adapten */
+  .content-frame {
+    width: 95vw;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    display: block;
   }
 }
 

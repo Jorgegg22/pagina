@@ -411,8 +411,8 @@ h1.frase{
     margin: 0 auto;
   }
 
-  .presentacion {
-    margin: 0 auto;
+  section.presentacion {
+    margin-left: 10px;
     width: 95vw;
     max-width: 900px;
     display: grid;
